@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goodlinks-exporter"
+version = "0.1.0"
+description = "A simple command-line utility which converts exports from the GoodLinks app to the input formats of other bookmarking/read-it-later services."
+authors = ["Trevor Hooten <github.ejszn@simplelogin.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/tdhooten/goodlinks-exporter"
+packages = [{include = "goodlinks_exporter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
