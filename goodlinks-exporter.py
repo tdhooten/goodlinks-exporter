@@ -30,7 +30,7 @@ def main():
     # Call function to parse JSON and return a list of links
     links = parse_json(args.filename)
 
-    # Send links to specified conversion function if one exists
+    # Send links to specified conversion function
     format = args.destination
     match format:
         case "instapaper":
